@@ -2,4 +2,58 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.top,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero-sub,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
 }
