@@ -21,7 +21,9 @@ p {
 }
 
 .hero-sub,
-a {
+a,
+button,
+.ctab {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -54,6 +56,10 @@ a {
     font-weight: 900;
 }
 
+.hero-sub {
+    margin-bottom: 15px;
+}
+
 p {
     font-size: 36px;
     color: #1F2937;
@@ -62,9 +68,7 @@ p {
 }
 
 .top,
-.info,
-.quote,
-.cta {
+.info {
     padding: 0 180px;
 }
 
@@ -154,4 +158,34 @@ h2 {
     font-weight: 900;
     font-size: 20px;
     text-align: right;
+}
+
+.cta {
+    padding: 160px 180px;
+}
+
+.ctab {
+    margin: 0 auto;
+    padding: 70px 180px;
+    border-radius: 15px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-top {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 35px;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: #3882F6;
+    border: none;
+}
+
+.ctab button {
+    border: 2px solid #F9FAF8;
 }
