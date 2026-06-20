@@ -54,14 +54,11 @@ a {
     font-weight: 900;
 }
 
-.quote {
-    background-color: #E5E7EB;
-}
-
 p {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    font-style: italic;
 }
 
 .top,
@@ -71,7 +68,7 @@ p {
     padding: 0 180px;
 }
 
-.top{
+.top {
     flex-grow: 1;
 }
 
@@ -123,7 +120,7 @@ h2 {
     margin-bottom: 150px;
 }
 
-img {
+.card img {
     height: 250px;
     width: auto;
     border: 3px solid #3882F6;
@@ -137,4 +134,24 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 160px 180px;
+}
+
+.quote-box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quote-box p {
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: right;
 }
